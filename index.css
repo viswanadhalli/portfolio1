@@ -1,0 +1,433 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    top:0;
+    position: sticky;
+}
+.title{
+    font-size: 1.5rem;
+}
+.navbarlinks ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+.navbarlinks li{
+    list-style: none;
+
+}
+a{
+    
+    text-decoration: none;
+}
+.navbarlinks li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+.navbar i{
+    color: white;
+    padding: 1rem;
+    display: none;
+}
+.navbarlinks li a:hover{
+    background-color: #555;
+}
+.navbar i:hover{
+    background-color: #555;
+}
+.placementcell{
+    padding-top: 150px;
+}
+.home{
+    padding-top: 200px;
+    color:white;
+    margin:0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-top:8em;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-start;
+}
+.right1{
+    display: flex;
+    justify-content: flex-start;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+h1:hover{
+    color:crimson;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.button1{
+    color:white;
+    background-color: #c17bee;
+    font-size: 24px;
+    border-radius: 12px;
+}
+.button2{
+    color:black;
+    background-color: white;
+    font-size: 24px;
+    border-radius: 12px;
+}
+.button1:hover{
+    color:black;
+    background-color:white;
+    font-size: 24px;
+    border-radius: 12px;
+}
+.button2:hover{
+    color: white;
+    background-color:#c17bee;
+    font-size: 24px;
+    border-radius: 12px;
+}
+.about{
+    padding-top: 8rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.skills{
+    padding-top:16rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 35rem;
+}
+#myProgress {
+    width: 50%;
+    background-color: #ddd;
+  }
+  
+#myBar {
+    width: 70%; 
+    background-color: #04AA6D;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+#myProgress0 {
+    width: 50%;
+    background-color: #ddd;
+  }
+  
+#myBar0 {
+    width: 75%; 
+    background-color: #04AA6D;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+#myProgress1 {
+    width: 50%;
+    background-color: #ddd;
+  }
+  
+#myBar1 {
+    width: 80%; 
+    background-color: #04AA6D;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+#myProgress2 {
+    width: 50%;
+    background-color: #ddd;
+  }
+  
+#myBar2 {
+    width: 85%; 
+    background-color: #04AA6D;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+.work{
+    padding-top: 5rem;
+}
+.works{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    
+}
+.p1,.p2,.p3 {
+    width: 500px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 5px solid gray;
+    color:white;
+    margin: 0
+   
+  }
+  .slides {
+    width: 1000px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 5px solid gray;
+    color:white;
+    margin: 0
+   
+  }
+  
+  .p1 img:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+
+  }
+  .p2 img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+.p3 img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+  
+  .p1:hover {
+    width: 500px;
+    padding: 10px;
+    color:black;
+    background-color:burlywood;
+    border: 5px solid gray;
+    margin: 0
+  }
+    
+  .p2:hover {
+    width: 500px;
+    padding: 10px;
+    color:black;
+    background-color:burlywood;
+    border: 5px solid gray;
+    margin: 0
+  }
+  .p3:hover {
+    width: 500px;
+    padding: 10px;
+    color:black;
+    background-color:burlywood;
+    border: 5px solid gray;
+    margin: 0
+  }
+  .mySlides {display:none;}
+  .certi{
+      display: flex;
+      color: white;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10rem;
+      
+  }
+  .contact{
+      padding-top: 10rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .butt{
+      border-radius: 5rem;
+  }
+  
+li:hover{
+    color:crimson;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ a:link {
+  color: black;
+ }
+  
+ a:visited {
+  color: black;
+ }
+ a:hover {
+  color: red;
+ }
+ a:active {
+  color: hotpink;
+ }
+ 
+@media screen and (max-width: 600px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #333;
+        width: "100%";
+        color: white;
+    }
+    .title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #333;
+        width: "100%";
+        color: white;
+    }
+    .navbarlinks ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        display: none;
+    }
+    .navbar i{
+        color: white;
+        padding: 1rem;
+        display: block;
+    }
+    .navbar i:hover{
+        background-color: #555;
+        
+    }
+    .home{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .left{
+        font-size: 50%;
+        padding-top:1.5rem;
+        padding-left: 1rem;
+    }
+    .right img{
+        
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .about{
+        padding-top: 8rem;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .left1 img{
+        width: 200px;
+        padding-left: 1rem;
+    }
+    .right1{
+        font-size: 25%;
+        
+    }
+    .button1{
+        font-size: 0.5rem;
+    }
+    .button2{
+        font-size: 0.5rem;
+    }
+    .skills{
+        padding-top:16rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: -505rem;
+    }
+    #myProgress {
+        width: 10%;
+        background-color: #ddd;
+      }
+      
+    #myBar {
+        width: 70%; 
+        background-color: #04AA6D;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    #myProgress0 {
+        width: 10%;
+        background-color: #ddd;
+      }
+      
+    #myBar0 {
+        width: 75%; 
+        background-color: #04AA6D;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    #myProgress1 {
+        width: 10%;
+        background-color: #ddd;
+      }
+      
+    #myBar1 {
+        width: 80%; 
+        background-color: #04AA6D;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    #myProgress2 {
+        width: 10%;
+        background-color: #ddd;
+      }
+      
+    #myBar2 {
+        width: 85%; 
+        background-color: #04AA6D;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    
+  }
+  

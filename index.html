@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"></script>
+    <title>PORTFOLIO</title>
+</head>
+<body background="gif.gif">
+    <nav class="navbar">
+        <div class="title">VINAY ALLI<i class="fa fa-bars" aria-hidden="true" ><a href="#navbar" onclick="myFunctionm(this)"></a></i></div> 
+        <div class="navbarlinks">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#work">My Works</a></li>
+                <li><a href="#certi">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <div class="home" id="home">
+        <div class="left">
+            <h1 >HELLO</h1>
+            <h1 >I AM VINAY VISWANADH ALLI</h1>
+            <div class="buttons">
+                <BUTton class="button1">HIRE ME</BUTton>
+                <BUTton class="button2">GET CV</BUTton>
+            </div>
+        </div>
+        <div class="right">
+            <img src="avatar.webp" alt="" srcset="">
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="left1">
+            <img src="avatar2.webp" alt="" srcset="">
+        </div>
+            <div class="right1" >
+                <h1>
+                    My name is Alli Vinay Viswanadh.I am pursuing B.Tech 3rd year in GMRIT in Computer Science Engineering.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    
+                </h1>
+            </div>
+    </div>
+    <div class="skills" id="skills">
+        <h1>My Skills</h1>
+        <h3>HTML CSS JAVASCRIPT</h3>
+            <div id="myProgress" class="myprogress">
+                <div id="myBar" id="myBar">70%</div>
+            </div>
+            <h3>C</h3>
+            <div id="myProgress0" class="myprogress0">
+                <div id="myBar0" class="myBar0">75%</div>
+            </div>
+        <h3>PYTHON</h3>
+        <div id="myProgress1" class="myProgress1">
+            <div id="myBar1" class="myBar1">80%</div>
+        </div>
+        <h3>PROBLEM SOLVING</h3>
+        <div id="myProgress2" class="myProgress2">
+            <div id="myBar2" class="myBar2">85%</div>
+        </div>
+        
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="work" id="work">
+        <div class="top">
+            <center><h1 style="color: white;">PROJECTS</h1></center>
+        </div>
+        <div class="down">
+            <div class="works" id="works">
+                <div class="p1">CALCULATOR
+                        <img src="calculator.jpg" alt="" srcset="" width="100%" height="90%">
+                </div>
+                <div class="p2">CALCULATOR
+                    <img src="calculator.jpg" alt="" srcset="" width="100%" height="90%">
+                </div>
+                <div class="p3">OPEN CV
+                    <img src="opencv.jpg" alt="" srcset="" width="100%" height="90%">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="certi" id="certi">
+        <h1>CERTIFICATES</h1>
+        <div class="slides" style="max-width:500px">
+            <img class="mySlides" src="1.jpg" style="width:100%">
+            <img class="mySlides" src="2.jpg" style="width:100%">
+            <img class="mySlides" src="3.jpg" style="width:100%">
+          </div>
+    </div> 
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script> 
+    <div class="contact" id="contact">
+        <a href="https://wa.me/qr/66M7RARUGDB6M1"><center><img src="contact1.png" alt="" width="15%"></center></a>
+        <button class="butt" ><a href="mailto:allivinay2001@gmail.com"><H1>CONTACT</H1></a></button>
+        
+    </div>     
+</body>
+</html>
